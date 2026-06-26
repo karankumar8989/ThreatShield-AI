@@ -1,2 +1,2 @@
 cp314
-Python 3.14
+python-3.12.10
