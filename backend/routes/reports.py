@@ -2,8 +2,8 @@ import os
 from fastapi import APIRouter, Depends, HTTPException
 from fastapi.responses import StreamingResponse
 from sqlalchemy.orm import Session
-from ..utils.database import get_db
-from ..models.scan_log import ScanLog
+from utils.database import get_db
+from models.scan_log import ScanLog
 from fpdf import FPDF
 import csv
 from io import BytesIO
