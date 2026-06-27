@@ -1,13 +1,13 @@
 from fastapi import APIRouter, HTTPException
 from pydantic import BaseModel, EmailStr
 
-from ..utils.security import (
+from utils.security import (
     get_password_hash,
     verify_password,
     create_access_token
 )
 
-from ..services.user_service import (
+from services.user_service import (
     get_user_by_email,
     create_user
 )
