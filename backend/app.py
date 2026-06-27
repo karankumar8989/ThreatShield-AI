@@ -1,5 +1,5 @@
 from fastapi import FastAPI, Depends
-from .utils.database import Base, engine
+from utils.database import Base, engine
 
 # Import routers after they are defined
 from .routes import auth, prediction, analytics, reports
