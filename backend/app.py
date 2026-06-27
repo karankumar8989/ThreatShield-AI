@@ -2,7 +2,7 @@ from fastapi import FastAPI, Depends
 from utils.database import Base, engine
 
 # Import routers after they are defined
-from .routes import auth, prediction, analytics, reports
+from routes import auth, prediction, analytics, reports
 
 app = FastAPI(title="ThreatShield AI API", version="0.1.0")
 
