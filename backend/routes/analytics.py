@@ -1,8 +1,8 @@
 from fastapi import APIRouter, Depends
 from sqlalchemy.orm import Session
 from sqlalchemy import func
-from ..utils.database import get_db
-from ..models.scan_log import ScanLog
+from utils.database import get_db
+from models.scan_log import ScanLog
 from pydantic import BaseModel
 from typing import List
 from datetime import datetime, timedelta
