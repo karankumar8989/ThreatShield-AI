@@ -1,5 +1,5 @@
-from ..utils.database import SessionLocal
-from ..models.user import User
+from utils.database import SessionLocal
+from models.user import User
 
 async def get_user_by_email(email: str):
     db = SessionLocal()
