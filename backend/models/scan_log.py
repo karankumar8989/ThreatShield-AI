@@ -1,5 +1,5 @@
 from sqlalchemy import Column, Integer, String, DateTime, func
-from ..utils.database import Base
+from utils.database import Base
 
 class ScanLog(Base):
     __tablename__ = "scan_logs"
